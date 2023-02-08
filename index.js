@@ -38,7 +38,7 @@ window.addEventListener("load", () => {
     function parseCityObjectArrToCityStringArr(arrOfObj){
         let arr = [];
         arrOfObj.forEach(cityItem => {
-            arr.push(`Name: ${cityItem.city}, Appeared: <b style="color:#f00;">${cityItem.appeared}</b>`);
+            arr.push(`Name: <b style="color:#0f0;">${cityItem.city}</b>, Appeared: <b style="color:#f00;">${cityItem.appeared}</b>`);
         });
         return arr;
     }
