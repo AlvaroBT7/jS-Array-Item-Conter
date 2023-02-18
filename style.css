@@ -7,7 +7,7 @@
     color: #fff;
     font-weight: 400;
     font-family: "jetBrains Mono", "Cascadia Code", sans-serif;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 main {
@@ -15,7 +15,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: radial-gradient(rgba(68, 136, 238, 0.1), rgba(120, 68, 187, 0.108));
+    background: radial-gradient(rgba(68, 136, 238, 0.16), rgba(120, 68, 187, 0.16));
 }
 
 article {
@@ -27,5 +27,6 @@ article {
 }
 
 .container {
-    padding: 20px;
+    padding: 15px;
+    margin: 20px;
 }
